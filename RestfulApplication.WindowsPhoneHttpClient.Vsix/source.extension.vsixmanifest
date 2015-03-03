@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+                 xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+                 xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+   <Metadata>
+      <Identity Id="RestfulApplication.WindowsPhoneHttpClient.Vsix..bfd9464d-e968-44f1-9bcd-9c8226f23514"
+                Version="1.1.1"
+                Language="en-US"
+                Publisher="Houssem Dellai" />
+      <DisplayName>Windows Phone Http Client (sample)</DisplayName>
+      <Description xml:space="preserve">A sample project template that shows how to consume Web API web services (GET, POST, PUT and DELETE) using a Windows Phone 8.1 client.</Description>
+      <Icon>Assets\hd.PNG</Icon>
+      <PreviewImage>Assets\phone.PNG</PreviewImage>
+      <Tags>Http; client; windows Phone; REST</Tags>
+   </Metadata>
+   <Installation>
+      <InstallationTarget Id="Microsoft.VisualStudio.Pro"
+                          Version="[12.0]" />
+   </Installation>
+   <Dependencies>
+      <Dependency Id="Microsoft.Framework.NDP"
+                  DisplayName="Microsoft .NET Framework"
+                  d:Source="Manual"
+                  Version="[4.5,)" />
+   </Dependencies>
+   <Assets>
+      <Asset Type="Microsoft.VisualStudio.ProjectTemplate"
+             d:Source="File"
+             Path="ProjectTemplates"
+             d:TargetPath="ProjectTemplates\Store Apps\Windows Phone Apps\Windows Phone Http Client.zip" />
+   </Assets>
+   <WizardData>
+      <packages repository="template"
+                repositoryId="RestfulApplication.WindowsPhoneHttpClient.Vsix..bfd9464d-e968-44f1-9bcd-9c8226f23514">
+         <package id="Newtonsoft.Json"
+                  version="6.0.4" />
+         <package id="Microsoft.Net.Http"
+                  version="2.2.20" />
+         <package id="Portable.MvvmLightLibs"
+                  version="4.3.31.2" />
+      </packages>
+   </WizardData>
+</PackageManifest>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <DisabledProjects>
+    <String>RestfulApplication.Clients.CrossPlatforms\RestfulApplication.Clients.CrossPlatforms.iOS\RestfulApplication.Clients.CrossPlatforms.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestfulApplication.Clients.CrossPlatforms\RestfulApplication.Clients.CrossPlatforms\App.cs">
+    <Files>
+      <File FileName="RestfulApplication.Clients.CrossPlatforms\RestfulApplication.Clients.CrossPlatforms\App.cs" Line="15" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

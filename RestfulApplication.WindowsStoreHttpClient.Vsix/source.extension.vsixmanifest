@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+                 xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+                 xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+   <Metadata>
+      <Identity Id="RestfulApplication.WindowsStoreHttpClient.Vsix..8dd61a55-2cb1-4064-bc7c-01d2b9129045"
+                Version="1.0"
+                Language="en-US"
+                Publisher="Houssem Dellai" />
+      <DisplayName>Windows Store Http Client</DisplayName>
+      <Description xml:space="preserve">A sample project template that shows how to consume Web API web services (GET, POST, PUT and DELETE) using a Windows Store 8.1 client.</Description>
+      <Icon>hd.PNG</Icon>
+      <PreviewImage>w8.png</PreviewImage>
+   </Metadata>
+   <Installation>
+      <InstallationTarget Id="Microsoft.VisualStudio.Pro"
+                          Version="[12.0]" />
+   </Installation>
+   <Dependencies>
+      <Dependency Id="Microsoft.Framework.NDP"
+                  DisplayName="Microsoft .NET Framework"
+                  d:Source="Manual"
+                  Version="[4.5,)" />
+   </Dependencies>
+   <Assets>
+      <Asset Type="Microsoft.VisualStudio.ProjectTemplate"
+             d:Source="File"
+             Path="ProjectTemplates"
+             d:TargetPath="ProjectTemplates\Store Apps\Windows Apps\RestfulApplication.Clients.WindowsStore.zip" />
+   </Assets>
+</PackageManifest>
