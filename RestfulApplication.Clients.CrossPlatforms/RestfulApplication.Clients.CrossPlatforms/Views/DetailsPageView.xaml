@@ -4,20 +4,29 @@
              x:Class="RestfulApplication.Clients.CrossPlatforms.Views.DetailsPageView">
 
    <StackLayout VerticalOptions="CenterAndExpand"
-   Padding="10,10,10,10"
+                Padding="10,10,10,10"
    >
       <Label Text="FullName"
              VerticalOptions="Center"
              HorizontalOptions="Start"
              FontSize="30"/>
-      <Entry Text="{Binding SelectedEmployee.FullName, Mode=TwoWay}"/>
+      <Entry Text="{Binding SelectedEmployee.FullName, Mode=TwoWay}"
+             Placeholder="FullName"/>
       <Label Text="Department"
              VerticalOptions="Center"
-             HorizontalOptions="Start" 
+             HorizontalOptions="Start"
              FontSize="30"/>
-      <Entry/>
-      
-      <Button Command="{Binding AddEmployeeCommand}"/>
+      <Entry Text="{Binding SelectedEmployee.Department, Mode=TwoWay}"
+             Placeholder="Department"/>
+
+      <Button Command="{Binding AddEmployeeCommand}"
+              Text="Add"/>
+
+      <Button Command="{Binding EditEmployeeCommand}"
+              Text="Edit"/>
+
+      <Button Command="{Binding DeleteEmployeeCommand}"
+              Text="Delete"/>
 
    </StackLayout>
 

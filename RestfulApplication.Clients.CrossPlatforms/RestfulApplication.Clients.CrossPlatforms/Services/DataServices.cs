@@ -11,7 +11,7 @@ namespace RestfulApplication.Clients.Core.Services
     public class DataServices
     {
 
-        private const string BaseUrl = "http://intilaqemployees.azurewebsites.net/api/employeesapi";
+        private const string BaseUrl = "http://intilaqemployees.azurewebsites.net/api/employeesapi/";
         //"http://localhost:43555/api/employeesapi/";
 
         public async Task<List<Employee>> GetEmployeesAsync()

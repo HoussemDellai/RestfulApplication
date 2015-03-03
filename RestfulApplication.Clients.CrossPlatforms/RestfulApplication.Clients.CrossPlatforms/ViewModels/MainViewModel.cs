@@ -45,8 +45,6 @@ namespace RestfulApplication.Clients.Core
             Messenger.Default.Send(employee);
         }
 
-
-
         private async Task DownloadDataAsync()
         {
             var dataServices = new DataServices();

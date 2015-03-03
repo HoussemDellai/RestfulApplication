@@ -21,7 +21,8 @@
 
    <StackLayout VerticalOptions="FillAndExpand">
 
-      <ListView ItemsSource="{Binding EmployeesList}">
+      <ListView ItemsSource="{Binding EmployeesList}"
+      			ItemTapped="NavigateToDetailsPageView">
          <ListView.RowHeight>
             <OnPlatform x:TypeArguments="x:Int32"
                         iOS="60"
